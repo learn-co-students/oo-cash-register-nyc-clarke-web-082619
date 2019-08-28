@@ -31,7 +31,6 @@ class CashRegister
 
 
     def void_last_transaction
-    #    self.total = self.total - self.last_item[1]*self.last_item[2]
         self.total = self.total - self.last_item[:price]*self.last_item[:quantity]
     end
 
