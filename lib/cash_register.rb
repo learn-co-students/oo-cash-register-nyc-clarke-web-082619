@@ -1,4 +1,4 @@
-require "pry"
+
 class CashRegister
 
 def initialize(discount=nil)
